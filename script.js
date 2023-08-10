@@ -11,16 +11,16 @@ registerLink.addEventListener('click',()=> {
 
 loginLink.addEventListener('click',()=> {
     wrapper.classList.remove('active');
-    welcome.style.display = 'none';
-    
 });
 
 btnPopup.addEventListener('click',()=> {
     wrapper.classList.add('active-popup');
+    welcome.style.display = 'none';
 });
 
 iconClose.addEventListener('click',()=> {
     wrapper.classList.remove('active-popup');
 });
+
 
 
