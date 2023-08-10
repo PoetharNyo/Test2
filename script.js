@@ -20,7 +20,7 @@ btnPopup.addEventListener('click',()=> {
 
 iconClose.addEventListener('click',()=> {
     wrapper.classList.remove('active-popup');
-    welcome.style.display = 'display';
+    welcome.style.display = 'block';
 });
 
 
